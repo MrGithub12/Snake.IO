@@ -55,3 +55,6 @@ E.g python3 client..py 127.0.0.1 200
 Bonus Part:
 1. Food on the stage which snakes can eat to score.  
 2. Kill counters.
+
+Problem:
+Server does not close after all clinets disconnect.
