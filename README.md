@@ -1,18 +1,17 @@
-Snake IO 
+# Snake IO 
 
-CS 382 Network Centric Computing 
-Spring 2019 
-LUMS
+## CS 382 Network Centric Computing 
+## Spring 2019 
+## LUMS
 
-Azan Bin Zahid
-20100206@lums.edu.pk
-https://github.com/azanbinzahid
+# Azan Bin Zahid
+# 20100206@lums.edu.pk
 
-Taimoor Ali
-20100217@lums.edu.pk
+# Taimoor Ali
+# 20100217@lums.edu.pk
 
 
-Introduction: 
+## Introduction: 
 This assignment is a multiplayer version of the classic game “Snake”.  
 The rules of the game are as follows: 
 
@@ -24,8 +23,8 @@ The rules of the game are as follows:
 6. The last snake alive wins the game. 
 
 
-Server Side:
-server.py
+## Server Side:
+# server.py
 
 It does the following: 
 1. Connect with all the clients 
@@ -34,11 +33,13 @@ It does the following:
 
 The command for starting the server is:  
 python3 server.py *IP address* *port* *number of players*  
-E.g python3 server.py 192.168.5.5 2000 5 
-E.g python3 server.py 127.0.0.1 2000 3
-
-Client Side:
-client.py
+For example:
+```
+python3 server.py 192.168.5.5 2000 5 
+python3 server.py 127.0.0.1 2000 3
+```
+## Client Side:
+# client.py
 
 It does the following: 
 1. Connect with the server
@@ -48,13 +49,15 @@ It does the following:
 
 The command for starting the client is:  
 python3 client.py *IP address* *port*  
-E.g python3 client.py 192.168.5.5 2000  
-E.g python3 client..py 127.0.0.1 200
+For example:
+```
+python3 client.py 192.168.5.5 2000  
+python3 client..py 127.0.0.1 200
+```
 
-
-Bonus Part:
+## Bonus Part:
 1. Food on the stage which snakes can eat to score.  
 2. Kill counters.
 
-Problem:
+## Pull Request:
 Server does not close after all clinets disconnect.
