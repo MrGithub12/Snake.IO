@@ -1,8 +1,8 @@
 # Snake IO 
 
-CS 382 Network Centric Computing 
-Spring 2019 
-LUMS
+CS 382 Network Centric Computing   
+Spring 2019   
+LUMS  
 
 ### Azan Bin Zahid - 20100206@lums.edu.pk
 ### Taimoor Ali - 20100217@lums.edu.pk
