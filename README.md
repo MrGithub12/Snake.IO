@@ -1,14 +1,14 @@
 # Snake IO 
 
-## CS 382 Network Centric Computing 
-## Spring 2019 
-## LUMS
+### CS 382 Network Centric Computing 
+### Spring 2019 
+### LUMS
 
-# Azan Bin Zahid
-# 20100206@lums.edu.pk
+### Azan Bin Zahid
+### 20100206@lums.edu.pk
 
-# Taimoor Ali
-# 20100217@lums.edu.pk
+### Taimoor Ali
+### 20100217@lums.edu.pk
 
 
 ## Introduction: 
@@ -24,7 +24,7 @@ The rules of the game are as follows:
 
 
 ## Server Side:
-# server.py
+### server.py
 
 It does the following: 
 1. Connect with all the clients 
@@ -32,14 +32,16 @@ It does the following:
 3. Communicate the positions and moves of each player to every other player
 
 The command for starting the server is:  
+```
 python3 server.py *IP address* *port* *number of players*  
+```
 For example:
 ```
 python3 server.py 192.168.5.5 2000 5 
 python3 server.py 127.0.0.1 2000 3
 ```
 ## Client Side:
-# client.py
+### client.py
 
 It does the following: 
 1. Connect with the server
@@ -48,7 +50,9 @@ It does the following:
 4. It uses the “curses” library in python to make the game.
 
 The command for starting the client is:  
+```
 python3 client.py *IP address* *port*  
+```
 For example:
 ```
 python3 client.py 192.168.5.5 2000  
